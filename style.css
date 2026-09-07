@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+  background-color: #ffffff;
+  color: #3d2b1f;
+}
+
+header {
+  text-align: center;
+  padding: 48px 16px 24px;
+  border-bottom: 2px solid #8b5e3c;
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 2.2rem;
+  color: #6f4e37;
+}
+
+.slogan {
+  margin: 0 0 12px;
+  font-size: 1.05rem;
+  color: #8b5e3c;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  color: #ffffff;
+  background-color: #8b5e3c;
+}
+
+main {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: #6f4e37;
+  border-bottom: 1px solid #e0d3c5;
+  padding-bottom: 6px;
+}
+
+#menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+#menu-list li {
+  padding: 10px 4px;
+  border-bottom: 1px dashed #e0d3c5;
+}
+
+footer {
+  text-align: center;
+  padding: 24px 16px;
+  font-size: 0.85rem;
+  color: #a08b78;
+}
