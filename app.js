@@ -8,10 +8,12 @@ function updateBadge() {
   var hour = new Date().getHours();
   if (hour >= OPEN_HOUR && hour < CLOSE_HOUR) {
     badge.textContent = "영업 중";
-    badge.style.backgroundColor = "#2e7d32";
+    badge.classList.add("is-open");
+    badge.classList.remove("is-closed");
   } else {
     badge.textContent = "준비 중";
-    badge.style.backgroundColor = "#8b5e3c";
+    badge.classList.add("is-closed");
+    badge.classList.remove("is-open");
   }
 }
 
