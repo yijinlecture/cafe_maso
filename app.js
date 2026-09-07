@@ -1,6 +1,6 @@
-// 영업시간(09:00 - 21:00) 기준으로 영업 상태 배지를 표시합니다.
+// 영업시간(09:00 - 22:00) 기준으로 영업 상태 배지를 표시합니다.
 var OPEN_HOUR = 9;
-var CLOSE_HOUR = 21;
+var CLOSE_HOUR = 22;
 
 function updateBadge() {
   var badge = document.getElementById("status-badge");
